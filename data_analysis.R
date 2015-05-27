@@ -1,5 +1,6 @@
 #  Exploratory Data Analysis
 ## Subinoy Biswas
+
 library(plyr)
 library(dplyr)
 library(ggplot2)
@@ -10,6 +11,7 @@ data <- read.csv("transrate_contigs.csv", header=T)
 
 # preview data frame
 tbl_df(data)
+
 names(data)
 
 # creating new data frame of score and p_good
